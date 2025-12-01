@@ -18,7 +18,7 @@ Store persistent data in files
 
 ```bash
 git clone
-(git@github.com:)[obenyolande/Terminal-
+(git@github.com:)[obenyolande/Terminal-Quiz-Game
 cd to directory Terminal-Quiz-Game
 cd 
 ```
