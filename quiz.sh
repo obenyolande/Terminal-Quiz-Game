@@ -9,7 +9,7 @@ echo "Hello, $name welcome to Quiz Game. let us begin"
 echo
 
 QUESTION_FILE="Question.txt"
-HIGHSCORE_FILE="highscore.txt"
+ export HIGHSCORE_FILE="highscore.txt"
 longest_streak=0
 # create highscore file if missing
 
@@ -23,7 +23,7 @@ while IFS= read -r line; do
     QUESTIONS+=("$line")
 done < "$QUESTION_FILE"
 # shuffle questions using shuf
-SHUFFLED=($(shuf -i 0-$((${#QUESTIONS[@]} - 1))))
+mapfile -t SHUFFLED < < ($(shuf -i 0-$((${#QUESTIONS[@]} - 1))))
 score=0
 Date=$(date)
 streak=0
