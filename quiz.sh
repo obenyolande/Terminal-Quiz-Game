@@ -30,13 +30,13 @@ streak=0
 incorrect=0
 TOTAL_QUESTIONS=${#QUESTIONS[@]}
 ask_question() {
-    local QUESTIONS="$1"
+    local QUESTION="$1"
     local A="$2"
     local B="$3"
     local C="$4"
     local D="$5"
     local ANSWER="$6"
-    echo "$QUESTIONS"
+    echo "$QUESTION"
     echo "$A"   
     echo "$B"
     echo "$C"
