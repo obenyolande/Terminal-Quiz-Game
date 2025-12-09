@@ -23,13 +23,16 @@ answer for the quiz
 ```bash
 To get a copy up and running follow these simple steps.
 clone project
-Clone this repository with `` using your terminal or command line. "https://github.com/obenyolande/Terminal-Quiz-Game.git"
+Clone this repository using your terminal or command line with. "https://github.com/obenyolande/Terminal-Quiz-Game.git"
 Change to the project directory by entering: cd Terminal-Quiz-Game in the terminal.
 ```
 - Command-line steps
  git clone  "https://github.com/obenyolande/Terminal-Quiz-Game/pull/1"
  `cd Terminal-Quiz-Game`
 `git switch feature/game(to switch to the feature branch)
+-Test
+run "./quiz.sh" to run quiz
+[wrong!/correct!]
 
 ### Contact/Credit
 Created bY [obenyolande] (git@github.com:)
